@@ -1,0 +1,187 @@
+body {
+	width: 970px;
+}
+
+/*CSS FOR BANNER*/
+
+.banner {
+	vertical-align: top;
+}
+
+nav {
+	margin-left: 300px;
+	width: 550px;
+
+
+}
+
+nav ul {
+	word-spacing: 3px;
+	background-color:#F9F9F9;
+	border-left: 1px solid #E9E9E9;
+	border-bottom: 1px solid #E9E9E9;
+	border-right: 1px solid #E9E9E9;
+	height: 25px; 
+}
+
+nav button {
+	background-color: #009AD9;
+	color: white;
+	width: 55px;
+	border-radius: 15%;
+
+}
+
+nav li {
+	display: inline-block;
+	border-right: 1px solid #B2B2B9;
+	padding-right: 8px;
+	color:#B2B2B9;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav button {
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.blue {
+	color:#0077A4;
+}
+
+.logo {
+
+}
+
+.logo img {
+	display: inline-block;
+
+}
+
+.logo h1 {
+	display: inline-block;
+	color:#7B7B7D;
+}
+
+.title {
+	background-color: #007DBC;
+	color:white;
+	height: 50px;
+	vertical-align: center;
+}
+
+.title h2 {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.low {
+	background-color: #ECECEC;
+}
+
+.home {
+	display: inline-block;
+	margin-left: 230px;
+	/*vertical-align: top;*/
+}
+
+.home img {
+	display: inline-block;
+	width: 40px;
+	height: 35px;
+}
+
+.home p {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.number {
+	margin-left: 400px;
+	display: inline-block;
+}
+
+.lblue {
+	color:#27A5D3 ;
+}
+
+.pic {
+	display: inline-block;
+}
+
+.pic img{
+	display: inline-block;
+	height: 50px;
+}
+
+.detail {
+	display: inline-block;
+	line-height: 1px;
+	margin-bottom: 5px;
+}
+
+.detail p {
+	padding-top: 0;
+}
+
+/*CSS FOR BANNER*/
+
+/*CSS FOR LEFT*/
+.red { 
+color:#D04D20;
+}
+
+.left {
+	width:265px;
+}
+
+.free button {
+	display: block;
+	padding: 10px;
+	margin: 5px;
+	width: 260px;
+}
+
+.free p:last-child {
+	margin-left: 45px;
+}
+
+.left p {
+	line-height: 5px;
+}
+
+.free {
+	border-bottom: 1px solid black;
+}
+
+.left img {
+	height: 300px;
+	width: 240px;
+}
+
+.demo {
+	color:white;
+	background-color: #1497D6;
+	font-weight: bold;
+	border-radius: 10%;
+}
+
+.trial {
+	color:white;
+	background-color:#F07223; 
+	font-weight: bold;
+	border-radius: 10%;
+}
+/*CSS FOR LEFT*/
+
+/*CSS FOR MAIN CONTENT*/
+

@@ -1,5 +1,6 @@
+
 body {
-	width: 970px;
+	width: 1150px;
 }
 
 /*CSS FOR BANNER*/
@@ -9,7 +10,7 @@ body {
 }
 
 nav {
-	margin-left: 300px;
+	margin-left: 500px;
 	width: 550px;
 
 
@@ -22,6 +23,7 @@ nav ul {
 	border-bottom: 1px solid #E9E9E9;
 	border-right: 1px solid #E9E9E9;
 	height: 25px; 
+	margin-left: 20px;
 }
 
 nav button {
@@ -37,6 +39,7 @@ nav li {
 	border-right: 1px solid #B2B2B9;
 	padding-right: 8px;
 	color:#B2B2B9;
+	margin-right: 5px;
 }
 
 nav li:last-child {
@@ -49,7 +52,7 @@ nav ul {
 
 nav button {
 	display: inline-block;
-	margin-left: 20px;
+	/*margin-left: 1px;*/
 
 }
 
@@ -69,6 +72,7 @@ nav button {
 .logo h1 {
 	display: inline-block;
 	color:#7B7B7D;
+	font-size: 40px;
 }
 
 .title {
@@ -80,7 +84,8 @@ nav button {
 
 .title h2 {
 	padding-top: 10px;
-	padding-left: 10px;
+	margin-left: 5px;
+
 }
 
 .low {
@@ -89,7 +94,7 @@ nav button {
 
 .home {
 	display: inline-block;
-	margin-left: 230px;
+	margin-left: 310px;
 	/*vertical-align: top;*/
 }
 
@@ -106,12 +111,20 @@ nav button {
 }
 
 .number {
-	margin-left: 400px;
+	margin-left: 470px;
 	display: inline-block;
+	/*vertical-align: middle;*/
+}
+
+.detail h2 {
+	/*width:300px;*/
 }
 
 .lblue {
-	color:#27A5D3 ;
+	color:#27A5D3;
+	/*margin-left: 50px;*/
+	/*padding: 0px 10px;*/
+	/*width: 250px;*/
 }
 
 .pic {
@@ -129,6 +142,10 @@ nav button {
 	margin-bottom: 5px;
 }
 
+.detail h2 {
+	letter-spacing: 5px;
+}
+
 .detail p {
 	padding-top: 0;
 }
@@ -142,6 +159,8 @@ color:#D04D20;
 
 .left {
 	width:265px;
+	display: inline-block;
+
 }
 
 .free button {
@@ -184,4 +203,55 @@ color:#D04D20;
 /*CSS FOR LEFT*/
 
 /*CSS FOR MAIN CONTENT*/
+.main {
+	width: 820px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.main h3 {
+	padding-right: 50px;
+}
+
+.main a {
+	color:#6C9BAD;
+}
+
+.start {
+	display: inline-block;
+	border: 10px solid #7BBBD6 ;
+}
+
+.hand {
+	/*width: 1px;*/
+	/*margin: 0;
+*/	display: inline-block;
+	/*margin-bottom: 100px;*/
+}
+
+.hand img {
+	display: inline-block;
+	margin-bottom: 60px;
+	margin-left: 0px;
+	vertical-align: left;
+
+}
+
+.descrip {
+	display: inline-block;
+	width: 650px;
+}
+
+.descrip p {
+	padding: 0px 45px;
+}
+
+.descrip button {
+	height: 40px;
+	background-color: #94B639;
+	width:230px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+
+}
 
